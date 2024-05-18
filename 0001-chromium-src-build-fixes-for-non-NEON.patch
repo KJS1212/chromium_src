@@ -16,8 +16,6 @@ index 5422447..9363df2 100644
      !is_debug && is_posix && (current_cpu == "arm" || current_cpu == "arm64")
  
  use_dsp_neon =
--    current_cpu == "arm64" || (current_cpu == "arm" && arm_version >= 7 &&
--                               (arm_use_neon || arm_optionally_use_neon))
 +    current_cpu == "arm64" || (current_cpu == "arm" && arm_version >= 7)
  
  static_library("libwebp_dec") {
