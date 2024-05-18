@@ -22,18 +22,18 @@ index 5422447..9363df2 100644
    sources = [
 diff --git a/third_party/opus/BUILD.gn b/third_party/opus/BUILD.gn
 index 3bb5e0d..c374a20 100644
---- a/third_party/opus/BUILD.gn
++++ a/third_party/opus/BUILD.gn
 +++ b/third_party/opus/BUILD.gn
 @@ -371,12 +371,9 @@ static_library("opus") {
          "src/celt/arm/arm_celt_map.c",
          "src/celt/arm/armcpu.c",
          "src/celt/arm/armcpu.h",
--        "src/celt/arm/celt_neon_intr.c",
+         "src/celt/arm/celt_neon_intr.c",
          "src/celt/arm/fft_arm.h",
          "src/celt/arm/mdct_arm.h",
          "src/celt/arm/pitch_arm.h",
--        "src/silk/arm/NSQ_neon.c",
--        "src/silk/arm/NSQ_neon.h",
+         "src/silk/arm/NSQ_neon.c",
+         "src/silk/arm/NSQ_neon.h",
          "src/silk/arm/arm_silk_map.c",
        ]
  
