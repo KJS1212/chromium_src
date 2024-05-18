@@ -1,6 +1,5 @@
 target_os = "android"
 target_cpu = "arm"
-use_remoteexec = true
 arm_use_neon = false
 arm_optionally_use_neon = false
 arm_tune = "cortex-a9"
